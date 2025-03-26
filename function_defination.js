@@ -11,9 +11,15 @@
 // const result = myFunction(3, 4);
 // console.log(result);
 
-const x = function (a, b) {
-  console.log(arguments);
-  return a * b;
-};
+// const x = function (a, b) {
+//   console.log(arguments);
+//   return a * b;
+// };
 
-console.log(x(3, 4));
+// console.log(x(3, 4));
+
+function sleep() {
+  console.log("I am Sleeping....");
+}
+
+sleep();
